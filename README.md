@@ -1,5 +1,5 @@
 
-* official guides ZkSync era : https://era.zksync.io/docs/dev/building-on-zksync/hello-world.html и https://era.zksync.io/docs/api/hardhat/getting-started.html#learn-more
+* official guides ZkSync era : https://era.zksync.io/docs/dev/building-on-zksync/hello-world.html and https://era.zksync.io/docs/api/hardhat/getting-started.html#learn-more
 * Goerli faucet: https://goerlifaucet.com/ ;
 * ZkSync PRC: https://era.zksync.io/docs/dev/troubleshooting/important-links.html ;
 * bridge to/from zksync era : https://portal.zksync.io/bridge ;
@@ -12,7 +12,7 @@
 4) prepare betamask : add ZkSync Era Testnet via https://chainlist.org/?testnets=true&search=zksync+era+testnet or manually
 5) request Goerli eth: https://goerlifaucet.com/
 6) bridge Goerli ETH to ZkSync Era Testnet via https://portal.zksync.io/bridge (make sure it says ZkSync Era Goerli in the bottom right corner)
-7) go back to Visual Studio Code terminal and type this command :  ```yarn init -y``` или ```npm init -y``` 
+7) go back to Visual Studio Code terminal and type this command :  ```yarn init -y``` or ```npm init -y``` 
 8) then type this : ```sudo npm i -D typescript ts-node ethers@^5.7.2 zksync-web3@^0.13.1 hardhat @matterlabs/hardhat-zksync-solc @matterlabs/hardhat-zksync-deploy```
 9) then this : ```yarn hardhat compile```        or     ```npx hardhat compile```
 10) add you betamask private key to ```deploy.ts``` 
